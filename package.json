@@ -1,0 +1,15 @@
+{
+    "name": "@miq/yarn-2-workspaces-monorepo-example-react",
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ]
+    },
+    "scripts": {
+        "start:counter": "yarn workspace @miq/counter start"
+    },
+    "devDependencies": {
+        "@craco/craco": "^6.1.2"
+    }
+}
