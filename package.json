@@ -7,7 +7,8 @@
         ]
     },
     "scripts": {
-        "start:counter": "yarn workspace @miq/counter start"
+        "start:counter": "yarn workspace @miq/counter start",
+        "build:counter": "yarn workspace @miq/counter build"
     },
     "devDependencies": {
         "@craco/craco": "^6.1.2"
