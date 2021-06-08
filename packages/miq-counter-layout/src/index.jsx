@@ -1,4 +1,4 @@
-import { Btn } from "@miq/shared";
+import { Btn } from "@monorepo/shared";
 
 export default function Layout(props) {
     return (

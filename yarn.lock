@@ -1970,11 +1970,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@miq/counter-layout@workspace:*, @miq/counter-layout@workspace:packages/miq-counter-layout":
+"@monorepo/counter-layout@workspace:*, @monorepo/counter-layout@workspace:packages/miq-counter-layout":
   version: 0.0.0-use.local
-  resolution: "@miq/counter-layout@workspace:packages/miq-counter-layout"
+  resolution: "@monorepo/counter-layout@workspace:packages/miq-counter-layout"
   dependencies:
-    "@miq/shared": "workspace:*"
+    "@monorepo/shared": "workspace:*"
     "@testing-library/jest-dom": ^5.11.4
     "@testing-library/react": ^11.1.0
     "@testing-library/user-event": ^12.1.10
@@ -1985,13 +1985,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@miq/counter@workspace:packages/miq-counter":
+"@monorepo/counter@workspace:packages/miq-counter":
   version: 0.0.0-use.local
-  resolution: "@miq/counter@workspace:packages/miq-counter"
+  resolution: "@monorepo/counter@workspace:packages/miq-counter"
   dependencies:
     "@craco/craco": ^6.1.2
-    "@miq/counter-layout": "workspace:*"
-    "@miq/shared": "workspace:*"
+    "@monorepo/counter-layout": "workspace:*"
+    "@monorepo/shared": "workspace:*"
     "@testing-library/jest-dom": ^5.11.4
     "@testing-library/react": ^11.1.0
     "@testing-library/user-event": ^12.1.10
@@ -2003,9 +2003,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@miq/shared@workspace:*, @miq/shared@workspace:packages/miq-shared":
+"@monorepo/react@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@miq/shared@workspace:packages/miq-shared"
+  resolution: "@monorepo/react@workspace:."
+  dependencies:
+    "@craco/craco": ^6.1.2
+  languageName: unknown
+  linkType: soft
+
+"@monorepo/shared@workspace:*, @monorepo/shared@workspace:packages/miq-shared":
+  version: 0.0.0-use.local
+  resolution: "@monorepo/shared@workspace:packages/miq-shared"
   dependencies:
     "@testing-library/jest-dom": ^5.11.4
     "@testing-library/react": ^11.1.0
@@ -2014,14 +2022,6 @@ __metadata:
     react-dom: ^17.0.2
     react-scripts: 4.0.3
     web-vitals: ^1.0.1
-  languageName: unknown
-  linkType: soft
-
-"@miq/yarn-2-workspaces-monorepo-example-react@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@miq/yarn-2-workspaces-monorepo-example-react@workspace:."
-  dependencies:
-    "@craco/craco": ^6.1.2
   languageName: unknown
   linkType: soft
 

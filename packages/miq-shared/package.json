@@ -1,5 +1,5 @@
 {
-    "name": "@miq/shared",
+    "name": "@monorepo/shared",
     "version": "0.1.0",
     "main": "src/index.jsx",
     "private": true,

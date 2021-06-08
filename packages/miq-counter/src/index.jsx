@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
-import { Btn } from "@miq/shared";
-import Layout, { DecrementBtn, IncrementBtn } from "@miq/counter-layout";
+import { Btn } from "@monorepo/shared";
+import Layout, { DecrementBtn, IncrementBtn } from "@monorepo/counter-layout";
 
 import reportWebVitals from "./reportWebVitals";
 

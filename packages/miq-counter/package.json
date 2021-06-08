@@ -1,10 +1,10 @@
 {
-    "name": "@miq/counter",
+    "name": "@monorepo/counter",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "@miq/counter-layout": "workspace:*",
-        "@miq/shared": "workspace:*",
+        "@monorepo/counter-layout": "workspace:*",
+        "@monorepo/shared": "workspace:*",
         "@testing-library/jest-dom": "^5.11.4",
         "@testing-library/react": "^11.1.0",
         "@testing-library/user-event": "^12.1.10",
