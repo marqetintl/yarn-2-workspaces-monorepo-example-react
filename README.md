@@ -1,4 +1,4 @@
-# yarn-2-workspaces-monorepo-example-react
+# yarn-2-workspaces-monorepo-example-react.
 
 1. Follow steps 1 to 4 from [the simple monorepo example](https://github.com/marqetintl/yarn-2-workspaces-monorepo-example#2-setup-from-scratch)
 
